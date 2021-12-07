@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+
+}
+
+.pic{
+    position: relative;
+}
+
+.img {
+    width: 100%;
+}
+
+.lunbo{
+    padding: .5rem 1rem;
+    font-size: 1.7rem;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(24, 23, 23, .3);
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.word ul{
+    margin: 1.5rem;
+}
+
+.word ul li{
+    margin-bottom: 1rem;
+}
+
+.big{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.col span{
+    color: red;
+}
+
+.col{
+    font-size: 1.8rem;
+    position: relative;
+}
+
+.col img{
+    width: 1.7rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.date{
+    color: rgb(176,176,176);
+    font-size: 1.6rem;
+}
+
+.xiaoA a{
+    padding: .5rem;
+    background-color: rgb(222,233,240);
+    color: rgb(132,154,174);
+    margin-right: .6rem;
+}
+
+.fangyuan{
+    margin: 3rem;
+    height: 44rem;
+}
+
+.kongbai{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    line-height: 4rem;
+    background-color: rgb(245,245,245);
+}
+
+.shang  li{
+    width: 50%;
+    height: 5rem;
+    float: left;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+
+.xia li{
+    width: 100%;
+    height: 5rem;
+    float: left;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+
+.more{
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(173, 172, 169);
+}
+
+.feature{
+    margin:0rem 2rem;
+}
+.feature p{
+    margin-bottom: 1rem;
+}
+.tese{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(248, 130, 12);
+    height: 5rem;
+    line-height: 5rem;
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+
+.feature p:nth-child(2){
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(231, 228, 228);
+    padding-bottom: 2rem;
+}
+
+.type{
+    margin: 0 1.8rem;
+}
+.houseLsit{
+    padding: 0 2rem;
+}
+.houseLsit li{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 2rem 0rem;
+    /* border-bottom: 1px solid rgb(255,138,0);     */
+    margin-bottom: 2rem;
+}
+
+.houseLsit li:nth-last-child(1){
+    border: none;
+}
+.houseLsit li div img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.head{
+    font-size: 1.8rem;
+    width: 18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.tit p{
+    margin-top: 1rem;
+}
+
+.tit>p:nth-child(2){
+    font-size: 1.3rem;
+}
+.cost{
+    float: right;
+    color: rgb(255,138,0);
+}
+.tit>p:nth-child(3){
+    font-size: 1.3rem;
+    color: rgb(147,148,148);
+}
+
+.tit>p:nth-child(3) span{
+    float: right;
+}
+
+.fangxing a{
+    font-size: 1.3rem;
+    padding: .5rem;
+    background-color: rgb(244,247,249);
+    color: rgb(134, 128, 128);
+}
+
+.ziti{
+    position: relative;
+}
+.ziti P{
+    margin-bottom: 1rem;
+}
+.ziti p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ziti p:nth-child(2){
+    font-size: 1rem;
+}
+
+.ziti p:nth-child(3) span{
+    font-size: .9rem;
+    padding: .3rem;
+    background-color: rgb(222,233,240);
+    color: rgb(132,154,174);
+    margin-right: .6rem;
+}
+
+.ziti p:nth-child(3){
+    position: absolute;
+    top: 5.5rem;
+    left: 0rem;
+}
+
+.school{
+    width: 100%;
+    height: 37rem;
+    margin: 0rem 2rem;
+}
+
+.school .big1{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.big2{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(231, 228, 228);
+    padding: 2rem 1rem;
+}
+
+.place{
+    padding: 2rem 2rem;
+}
+.place img{
+    width: 100%;
+}
+
+.recommend{
+    margin: 2rem;
+}
+
+#er{
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgb(201, 198, 198);
+}
+
+.attention{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    height: 5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    /* line-height: 5rem; */
+    margin-top: 2rem;
+}
+.attention a:first-of-type{
+    display: inline-block;
+    /* flex: 7; */
+    height: 4rem;
+    width: 20rem;
+    line-height: 4rem;
+    color: white;
+    background: url(../image/SecondHandList/user.png) 2rem 0.5rem no-repeat; 
+    background-color: rgb(255,138,0);
+
+}
+
+.attention a:last-of-type{
+    display: inline-block;
+    line-height: 4rem;
+    /* flex: 3; */
+    background: url(../image/SecondHandList/xin.png) 0rem 0.5rem no-repeat;
+    width: 10rem;
+    height: 4rem;
+    margin-left: 1rem;
+}
