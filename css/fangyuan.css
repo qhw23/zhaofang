@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(245,245,245);
+}
+
+.head{
+    height: 4rem;
+    background-color: white;
+}
+.head>p{
+    font-size: 1.6rem;
+    text-indent: 2rem;
+    line-height: 4rem;
+}
+.head>p>a{
+    font-size: 2rem;
+    color: black;
+}
+.head>p>.indexx{
+    font-weight: 600;
+} 
+/* .image{
+    height: 37rem; 
+ }  */
+.image>a>img{
+    width: 32rem;
+    height: 18.5rem;
+    
+}
+.image>.share{
+    position: absolute;
+    top: 25rem;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 5.9rem;
+    height: 4.1rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 4.1rem;
+    border-radius: 10px 0 0 10px;
+}
+.text{
+    height: 9rem;
+    /* display: flex; */
+    /* flex-wrap:wrap; */
+    background-color: white;
+}
+.text>h2{
+    /* flex-grow: 2; */
+    width: 73%;
+    display: inline-block;
+    line-height: 2.7rem;
+    margin-top: 1.5rem;
+
+}
+.text>a{
+    /* flex-grow: 1; */
+    width: 25%;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    background: url(../image/rentalList/xin.png) center  no-repeat;
+    background-size: 2.3rem 2.3rem;
+    padding-top: 3.8rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+
+}
+.zu{
+    /* background-color: white; */
+    height: 7rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.zu>ul>li{
+    width: 33%;
+    height: 5rem;
+    float: left;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.8rem;
+    border-right: 1px solid #ccc;
+    margin-top: 1.5rem;
+}
+.zu>ul>li>.Z1{
+    color: rgb(255,138,0);
+}
+.lou{
+    height: 21rem;
+    background-color: white;
+}
+.lou>ul>li{
+    height: 7rem;
+    line-height: 7rem;
+    border-bottom: 1px solid #ccc;
+}
+.lou>ul>li>.L1{
+    margin-left: 10rem;
+}
+.lou>ul>li>.L2{
+    margin-left: 15rem;
+}
+.lou>ul>li>.L3{
+    margin-left: 12rem;
+}
+.lou>ul>li>div{
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.ping{
+    width: 95%;
+    height: 23rem;
+    margin: 2rem auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.ping>h2{
+    color: rgb(255,138,0);
+    font-size: 3rem;
+    text-indent: 2rem;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.ping>p{
+    font-size: 2rem;
+    text-indent: 1.7rem;
+    line-height: 3rem;
+    padding: 1rem 1rem 1rem 0;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.jilu{
+    width: 95%;
+    height: 13rem;
+    margin: 1rem auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.jilu>h2{
+    color: rgb(255,138,0);
+    font-size: 3rem;
+    text-indent: 2rem;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.jilu>p{
+    font-size: 2rem;
+    text-indent: 1.7rem;
+    line-height: 3rem;
+    padding: 1rem 1rem 1rem 0;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.around{
+    width: 95%;
+    height: 40rem;
+    margin: 2rem auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.around>h2{
+    color: rgb(255,138,0);
+    font-size: 3rem;
+    text-indent: 2rem;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.around>div{
+    width: 95%;
+    height: 25rem;
+    margin: auto;
+}
+.around>div>h3{
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 0;
+    text-indent: 1rem;
+}
+.around>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+.history{
+    width: 95%;
+    height: 22rem;
+    margin: 2rem auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.history>h2{
+    color: rgb(255,138,0);
+    font-size: 3rem;
+    text-indent: 2rem;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.history>p{
+    font-size: 2rem;
+    text-indent: 1.7rem;
+    line-height: 5rem;
+    padding: 1rem 1rem 1rem 0;
+    /* border-bottom: 1px solid #ccc; */
+}
+.history>p>span{
+    color: #de6843;
+}
+
+.lianxi{
+    /* width: 95%; */
+    height: 11rem;
+    margin: 2rem auto;
+    background-color: white;
+    /* border: 1px solid #ccc; */
+}
+.lianxi>.man{
+    display: inline-block;
+    margin-left: 1rem;
+    height: 8rem;
+    margin-top: 1rem;
+}
+.lianxi>.man>div{
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    /* margin-top: 1rem; */
+}
+.lianxi>.phone{
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 6rem;
+}
+.lianxi>.phone>.iphone{
+    display: inline-block;
+    width: 5rem;
+    padding-top: 5rem;
+    background: url(../image/rentalList/icon1.png) no-repeat center top;
+    background-size: 5rem 5rem;
+    text-align: center;
+    color: #5dcb96;
+}
+.lianxi>.phone>.short{
+    display: inline-block;
+    width: 5rem;
+    padding-top: 5rem;
+    background: url(../image/rentalList/icon2.png) no-repeat center top;
+    background-size: 5rem 5rem;
+    text-align: center;
+    color: #5baede;
+    margin-left: 2rem;
+}
