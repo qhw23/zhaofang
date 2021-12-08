@@ -55,6 +55,7 @@ html,body{
 }
 
 .list li a{
+    font-size: 1.4rem;
     color: white;
 
 }
