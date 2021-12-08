@@ -66,6 +66,7 @@ header .title img{
 
 .phone{
     height: 23rem;
+    width: 100%;
     /* background-color: white; */
     border-top: 1px solid #ccc;
 }
@@ -99,18 +100,22 @@ header .title img{
     /* position:relative; */
     /* top: 17rem; */
     height: 23rem;
+    width: 100%;
     /* background-color: white; */
     border-top: 1px solid #ccc;
+    position: absolute;
+    top: 17rem;
+    left: 0rem;
+    display: none;
 }
 .yanzheng>ul>li{
     position:relative;
-
     background-color: white;
     height: 7rem;
     border-bottom: 1px solid #ccc;
     text-indent: 2rem;
 }
-.yanzheng>ul>li>a{
+.yanzheng>ul>li>span{
     position: absolute;
     top: 0rem;
     right: 1rem;
