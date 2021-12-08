@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(245,245,245);
+}
+header{
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(255,138,0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header a img{
+    width: 13rem;
+
+}
+
+header .title img{
+    width: 3rem;
+    margin-left: 2rem;
+}
+.head{
+    height: 4rem;
+
+    
+}
+.head>p{
+    background-color: white;
+    font-size: 1.6rem;
+    text-indent: 2rem;
+    line-height: 4rem;
+
+}
+.head>p>a{
+    font-size: 2rem;
+    color: black;
+}
+.head>p>.indexx{
+    font-weight: 600;
+} 
+
+.verify{
+    height: 7rem;
+    background-color: white;
+    border-top: 1px solid #ccc;
+}
+.verify>ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+.verify>ul>li{
+    height: 7rem;
+    text-align: center;
+    line-height: 7rem;
+    font-size: 2rem;
+    /* border-bottom: 3px soild rgb(255,138,0); */
+}
+
+.phone{
+    height: 23rem;
+    /* background-color: white; */
+    border-top: 1px solid #ccc;
+}
+.phone>ul>li{
+    background-color: white;
+    height: 7rem;
+    border-bottom: 1px solid #ccc;
+    text-indent: 2rem;
+}
+.phone>ul>li>input{
+    border: none;
+    font-size: 1.8rem;
+    outline: none;
+    width: 100%;
+    height: 7rem;
+    line-height: 7rem;
+}
+.phone>input{
+    height: 7rem;
+    color: white;
+    background-color: rgb(255,138,0);
+    text-align: center;
+    margin: 2rem auto ;
+    margin-left: 1rem;
+    width: 95%;
+    font-size: 2rem;
+    border: none;
+}
+
+.yanzheng{
+    /* position:relative; */
+    /* top: 17rem; */
+    height: 23rem;
+    /* background-color: white; */
+    border-top: 1px solid #ccc;
+}
+.yanzheng>ul>li{
+    position:relative;
+
+    background-color: white;
+    height: 7rem;
+    border-bottom: 1px solid #ccc;
+    text-indent: 2rem;
+}
+.yanzheng>ul>li>a{
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
+    display: inline-block;
+    width: 10rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-top: 1.5rem;
+    border: 1px solid #ccc;
+}
+.yanzheng>ul>li>input{
+    border: none;
+    font-size: 1.8rem;
+    outline: none;
+    width: 100%;
+    height: 7rem;
+    line-height: 7rem;
+}
+.yanzheng>input{
+    height: 7rem;
+    color: white;
+    background-color: rgb(255,138,0);
+    text-align: center;
+    margin: 2rem auto ;
+    margin-left: 1rem;
+    width: 95%;
+    font-size: 2rem;
+    border: none;
+}
+
+.forget{
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    width: 95%;
+    margin-left: 1rem;
+}
+.forget a:first-of-type{
+    float: left;
+    color: #ff8a00;
+}
+.forget a:last-of-type{
+    float: right;
+}
+

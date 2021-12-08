@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(245,245,245);
+}
+.head{
+    height: 26rem;
+    border-bottom: 2px solid red;
+    background: url(../image/my/bg1.png) no-repeat 0px 0px;
+    text-align: center;
+    background-size: 100% 100%;
+}
+.toplist{
+    /* height: 3rem; */
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+}
+.toplist>a{
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 6rem;
+    margin-left: 3rem;
+    height: 3.2rem;
+}
+.toplist a:first-of-type{
+    background: url(../image/my/urse.png) no-repeat center;
+    background-size: 2rem,2rem;
+}
+.toplist a:last-of-type{
+    background: url(../image/my/down.png) no-repeat center;
+    background-size: 2rem,2rem;
+}
+.head>.user{
+    width: 6.5rem;
+    height: 6.5rem;
+    /* position: absolute;
+    top: 10rem; */
+    /* right: 15rem; */
+    margin: 0px auto;
+    margin-top: 9rem;
+}
+.head>.mylogin{
+    width: 10rem;
+    height: 4rem;
+    display: block;
+    line-height: 4rem;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.8rem;
+    /* position: absolute;
+    top: 18rem;
+    right: 13rem; */
+    margin: 0px auto;
+    margin-top: 2rem;
+
+}
+.list{
+    background-color: white;
+    /* display: flex; */
+    /* height: 30rem; */
+}
+.list>ul{
+    background-color: white;
+}
+.list>ul>li{
+    background: url(../image/my/right.png) no-repeat right center;
+    background-color: white;
+    height: 7rem;
+    width: 85%;
+    margin: 0px auto;
+    border-bottom: 1px solid #CCC;
+    font-size: 1.8rem;
+    /* color: #ccc; */
+    margin-left: 2rem;
+    line-height: 7rem;
+}
+.list>ul>li>a{
+    color: rgb(83, 81, 81);
+
+}
